@@ -1,6 +1,7 @@
 apertium-apy (0.1+svn~57531-2) trusty; urgency=low
 
   * Bug fix with upstart script not being populated correctly
+  * Add sqlite3 as a build dependency
 
  -- Alexandros Kosiaris <akosiaris@wikimedia.org>  Mon, 20 Oct 2014 18:52:43 +0300
 
