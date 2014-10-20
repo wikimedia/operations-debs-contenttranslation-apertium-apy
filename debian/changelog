@@ -1,3 +1,9 @@
+apertium-apy (0.1+svn~57531-2) trusty; urgency=low
+
+  * Bug fix with upstart script not being populated correctly
+
+ -- Alexandros Kosiaris <akosiaris@wikimedia.org>  Mon, 20 Oct 2014 18:52:43 +0300
+
 apertium-apy (0.1+svn~57531-1) trusty; urgency=low
 
   * Initial release.
