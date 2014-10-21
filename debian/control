@@ -2,7 +2,7 @@ Source: apertium-apy
 Section: science
 Priority: optional
 Maintainer: Kartik Mistry <kartik@debian.org>
-Build-Depends: debhelper (>= 9), python3-dev, sqlite3
+Build-Depends: debhelper (>= 9), dpkg-dev (>= 1.16.1~), python3-dev, sqlite3
 Standards-Version: 3.9.6
 Homepage: http://apertium.org
 Vcs-Git: https://git.wikimedia.org/summary/?r=operations/debs/contenttranslation/apertium-apy.git
@@ -10,15 +10,15 @@ Vcs-Git: https://git.wikimedia.org/summary/?r=operations/debs/contenttranslation
 Package: apertium-apy
 Architecture: any
 Depends: adduser,
-         logrotate,
          apertium (>= 3.3),
          apertium-lex-tools,
          build-essential,
          libxml2-dev,
          libxslt-dev,
+         logrotate,
          lttoolbox,
-         python3-lxml,
          python3-dev,
+         python3-lxml,
          python3-pip,
          python3-tornado,
          zlib1g-dev,

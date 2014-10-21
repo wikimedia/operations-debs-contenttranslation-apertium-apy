@@ -1,3 +1,15 @@
+apertium-apy (0.1+svn~57531-3) trusty; urgency=low
+
+  [ Alexandros Kosiaris ]
+  * debian/source/options:
+    + Ignore .gitreview when building source else package will break.
+
+  [ Kartik Mistry ]
+  * debian/control:
+    + Added dpkg-dev (>= 1.16.1~) in Build-Dep.
+
+ -- Kartik Mistry <kartik@debian.org>  Tue, 21 Oct 2014 14:21:17 +0530
+
 apertium-apy (0.1+svn~57531-2) trusty; urgency=low
 
   * Bug fix with upstart script not being populated correctly
