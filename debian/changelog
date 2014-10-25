@@ -1,3 +1,9 @@
+apertium-apy (0.1+svn~57689-1) trusty; urgency=low
+
+  * New upstream snapshot to fix missing db file issue.
+
+ -- Kartik Mistry <kartik@debian.org>  Sat, 25 Oct 2014 20:13:36 +0530
+
 apertium-apy (0.1+svn~57531-3) trusty; urgency=low
 
   [ Alexandros Kosiaris ]
