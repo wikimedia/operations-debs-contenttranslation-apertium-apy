@@ -1,3 +1,17 @@
+apertium-apy (0.1+svn~61425-1) trusty; urgency=low
+
+  * New upstream snapshot:
+    + Added --restart-pipe-after to restart pipelines after number of seconds.
+    + Use -j1 as default.
+    + Fixing bug incorrectly splitting short strings.
+    + Warning if no UTF-8 locale present.
+  * debian/control:
+    + Updated dependencies.
+  * debian/copyright:
+    + Added license of toro.py
+
+ -- Kartik Mistry <kartik@debian.org>  Thu, 13 Aug 2015 20:01:24 +0530
+
 apertium-apy (0.1+svn~57689-1) trusty; urgency=low
 
   * New upstream snapshot to fix missing db file issue.
