@@ -1,3 +1,10 @@
+apertium-apy (0.9.1~r343-1) jessie; urgency=low
+
+  * New upstream release snapshot.
+  * Rebuild for Jessie.
+
+ -- Kartik Mistry <kartik@debian.org>  Mon, 13 Jun 2016 10:04:27 +0530
+
 apertium-apy (0.1+svn~61425-1) trusty; urgency=low
 
   * New upstream snapshot:
