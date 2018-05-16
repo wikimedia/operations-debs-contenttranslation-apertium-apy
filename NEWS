@@ -1,6 +1,90 @@
 # -*- mode:org -*-
 #+STARTUP: showall
 
+* Version: 0.11.3 2018-04-04
+  Git rev: 7f92fb4b2c98532377ded8864f3d858401a90b90
+  Changes since 0.11.2:
+
+  - Install to `share` instead of directly `sys.prefix`
+
+
+* Version: 0.11.2 2018-04-04
+  Git rev: e92cc48f1ae5ce06fb8f7ead9f5736048e8bc10a
+  Changes since 0.11.1:
+
+  - Include langNames.db and tools in installed version
+    (previously only included with source distribution)
+
+  - Improvements to work better with Debian install
+
+  - Proper cld2 dependency naming and new [full] extra
+
+
+* Version: 0.11.1, 2018-04-02
+  Git rev: d75edb71fb9caaf00773cfceeaa5352fd8f09830
+  Changes since 0.11.0:
+
+  - Support Tornado 5.0
+
+
+* Version: 0.11.0, 2018-04-01
+  Git rev: a92a112a26a22885ee7c6a5dc5fb26612774b790
+  Changes since 0.10.1:
+
+  - PyPi packaging
+
+  - Added requirements.txt and requirements-dev.txt
+
+  - Improved READMEs
+
+  - Dropped support for Tornado v3, supporting >=4.2.1,<5
+
+  - Fix to allow /listLanguageNames request without locale
+
+  - Make apertium-streamparser an optional dependency
+
+  - Fix Python 3.4 support without typing library backport
+
+  - Numerous internal changes including widespread code refactoring,
+    naming changes, improved testing, faster continuous integration,
+    more consistent code style, more linting, and coverage calculation
+
+
+* Version 0.10.0, 2018-01-01
+  Git rev: 7bd5c0327cdac0e75126da3d8681cb7553698d97
+
+  Changes since 0.9.1:
+
+  - Various minor cleanups and lints
+
+  - User=apertium and expect data in /usr/share/apertium like the debian version
+
+  - Friendlier 400 messages
+
+  - Improve translate/ formatting interface, add rtf formatting handler
+
+  - Move new formatting functinality to new function getFormat
+
+  - Better URL rebasing
+
+  - Fix URL base for empty src
+
+  - New language names from
+    https://victorio.uit.no/langtech/trunk/techdoc/mt/smenob/Lokalisering.jspwiki
+
+  - Remove soft hyphen
+
+  - Updated various tests
+
+  - Gagauz in some languages
+
+  - Case fixes
+
+  - Add more language names
+
+  - Remove support for Python 3.2
+
+
 * Version 0.9.1, 2016-06-10
   Git rev: 3c536b37def552d073ddda4d27d9358103e304c4
 
