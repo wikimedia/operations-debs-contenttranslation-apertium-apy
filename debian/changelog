@@ -1,3 +1,11 @@
+apertium-apy (0.11.3-1+wmf1) jessie-wikimedia; urgency=low
+
+  * New upstream release:
+    + APy now installs /usr/bin/apertium-apy, so make use of that in services.
+  * Rebuild for Jessie.
+
+ -- Kartik Mistry <kartik@debian.org>  Wed, 16 May 2018 11:01:17 +0530
+
 apertium-apy (0.9.1~r343-1) jessie; urgency=low
 
   * New upstream release snapshot.

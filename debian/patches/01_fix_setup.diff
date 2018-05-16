@@ -1,0 +1,12 @@
+Description: Removed line only causing FTBFS and only needed for pypi
+diff --git a/setup.py b/setup.py
+--- a/setup.py
++++ b/setup.py
+@@ -34,7 +34,6 @@ setup(
+     license=apy.__license__,
+     description='Apertium Web Service',
+     long_description=open(path.join(path.abspath(path.dirname(__file__)), 'README.md')).read(),
+-    long_description_content_type='text/markdown; charset=UTF-8',
+     keywords='apertium parsing linguistics server',
+     author='Apertium',
+     author_email='sushain@skc.name',
